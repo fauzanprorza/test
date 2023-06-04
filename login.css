@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo{
+	margin-top: 78px;
+	width: 60px;
+	margin: -10px;
+	padding-left: 20px;
+	
+}
+
+body{
+	background-position: top left;
+    background-image: url("wall2.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	min-width: 300px;
+   
+}
+#main{
+	width:350px;
+	max-width:350px;
+	background:#EFEFEF;
+	border:2px solid #E1E1E1;
+	padding:18px;
+	margin-top:10%;
+	margin-left:35%;
+	height:auto;}
+
+#login{
+	width:310px;
+	max-width:310px;
+	height:auto;
+	border:0px solid #000;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;}
+
+.text{
+	margin-left: 8px;
+	font-size: 29px;
+	text-transform: capitalize;
+	font-family:Arial, Helvetica, sans-serif;}
+.htext{
+	margin-bottom: auto;
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+.user{
+	font-size:18px;
+	text-align:center;
+	border:1px solid #E1E1E1;
+	padding:12px; 
+	width:283px;}
+	
+.btn-login{
+	color:#FFF;
+	background:#00D1FF;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	border:1px solid #E1E1E1;
+	padding:12px;
+	width:308px;
+	cursor:pointer;
+	}
+	.copy{
+		color:#999;
+		font-size:15px;
+		font-family:Arial, Helvetica, sans-serif;
+		}
+	@media screen and (min-width: 1024px) {
+		#main{
+	  width: 90%;
+	  max-width: 350px;
+	  background:#EFEFEF;
+	  border:2px solid #E1E1E1;
+	  padding:18px;
+	  margin-top: 10%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  height:auto;
+	  box-sizing: border-box;
+		}
+	}
+	  @media screen and (max-device-width: 480px)
+	  and (orientation: portrait) {
+	  #main {
+		width: 90%;
+		max-width: 350px;
+		background: #EFEFEF;
+		border: 2px solid #E1E1E1;
+		padding: 18px;
+		margin-top: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 867px;
+		box-sizing: border-box;
+	  }
+	  }
+	  #login{
+		width: 90%;
+		max-width: 310px;
+		height:auto;
+		border:0px solid #000;
+		margin:0 auto;
+		  box-sizing: border-box;
+		}
+		
+
+
